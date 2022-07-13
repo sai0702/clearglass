@@ -1,0 +1,58 @@
+.footer{
+    top:50vh;
+    width:90%;
+    position: relative;
+    background:rgba(0,0,0);
+    border-radius: 2vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin: 4%;
+    bottom: 0;
+}
+.footer h1{
+    color: papayawhip;
+    font-size: 4vh;
+    font-family: 'Dancing Script', cursive;
+}
+.leftFooter{
+    float: left;
+    width:30%;
+    position: relative;
+    border-radius: 2vw;
+
+    
+}
+.rightFooter{
+    width:30%;
+    float: right;
+    position: relative;
+    border-radius: 2vw;
+    
+}
+.middleFooter{
+    width: 30%;
+    margin: auto;
+    position: relative;
+    border-radius: 2vw;
+    height: inherit;
+}
+hr{
+    border: none;
+    background-color: black;
+}
+a{
+    font-family: serif;
+    font-weight: 400; 
+    font-style: italic;
+    text-decoration: none;
+    color: cyan;
+
+}
+a:hover{
+    transition: all 0.2s ease-in-out;
+    color: lavenderblush;
+    font-size: large;
+
+}
